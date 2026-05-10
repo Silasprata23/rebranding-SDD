@@ -1,41 +1,69 @@
 @use "../../style/variables" as *;
 
 
-.card-container {
 
 
-  .card-variant0{
+
+  .color3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 700px;
+    justify-content: space-between;
+    width: 700px ;
     height: 330px;
     background-color: $color-blue-3;
+    padding: 20px;
+    border-radius: 5px;
+    border: 5px solid $color-noctorios-black;
+    .text{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-size: 25px;
+      font-weight: 500;
+      text-align: center;
+      gap: 10px;
+      h3{
+        font-size: 35px;
+        font-weight: 600;
+      }
+
+    }
+
   }
 
-  .card-variant1{
+  .color2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 700px;
+    justify-content: space-between;
+    width: 50%;
     height: 330px;
-    background: $color-blue-2;
+    background-color: $color-blue-2;
+    padding: 20px;
+    border-radius: 5px;
+    border: 5px solid $color-noctorios-black;
+    .text{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-size: 25px;
+      font-weight: 500;
+      text-align: center;
+      gap: 10px;
+      h3{
+        font-size: 35px;
+        font-weight: 600;
+      }
+
+    }
   }
 
 
 
 
 
-  .card-title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-    height: 90px;
-    background: $color-blue-4;
-  }
+
 
   .card-media {
     display: flex;
@@ -45,4 +73,3 @@
     height: 90px;
     background: $color-blue-4;
   }
-}

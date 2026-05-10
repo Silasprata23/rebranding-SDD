@@ -1,4 +1,4 @@
-
+import "../src/style/globalStyle.scss"
 import {Page} from "./page/index.jsx";
 
 

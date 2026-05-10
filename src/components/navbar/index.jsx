@@ -1,5 +1,6 @@
-import logo from "../../assets/image/logo.svg"
+import logo from "../../assets/svg/logo.svg"
 import "../navbar/style.scss"
+import {Clock} from "../clock/index.jsx";
 
 export const Navbar = () => {
   return (
@@ -15,10 +16,7 @@ export const Navbar = () => {
       </div>
 
       <div className="relogio">
-        <span>
-            05/05  9:15
-            {/* o relogio sera dinamico  */}
-        </span>
+       <Clock/>
       </div>
     </div>
   );

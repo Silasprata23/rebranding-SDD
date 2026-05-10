@@ -6,12 +6,12 @@
   display: flex;
   flex-direction: column;
   background: $color-blue-1;
-  width: 85%;
+  width: 95%;
   height: 90%;
-
   border-radius: 20px;
   border: 5px solid $color-noctorios-black;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
 
   .titleBar{
     display: flex;
@@ -22,11 +22,65 @@
     background: $color-off-white;
     border-radius: 20px 20px 0 0;
 
-
-
-
-
-
   }
 
+
+  .window-content {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+    .card-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100px;
+      background: $color-blue-4;
+      font-size: 50px;
+      border-radius: 5px;
+      border: 5px solid $color-noctorios-black;
+
+    }
+
+    .card-media{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100px;
+      background: $color-blue-4;
+      border-radius: 5px;
+      border: 5px solid $color-noctorios-black;
+      p{
+        color: $color-noctorios-black;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4px;
+
+      }
+      .button-media{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        flex-direction: row;
+        padding: 23px ;
+      }
+    }
+
+
+    .card-wrapper {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 45px;
+    }
+  }
 }

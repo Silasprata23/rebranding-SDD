@@ -1,9 +1,10 @@
+ import "./style.scss"
+export const Button = ( {socialMedia, link, text}) =>{
 
-export const Button = ({text, link}) =>{
+
     return (
-        <div className={text}>
-            <a href={link}>{text}</a>
-        </div>
-
+                <div className={socialMedia ? "media" : "button"}>
+                    <a href={link}>{text}</a>
+                </div>
     )
 }

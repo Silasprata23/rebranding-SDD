@@ -1,0 +1,25 @@
+@use "../../style/variables.scss" as *;
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  color: $color-off-white;
+  border-radius: 5px;
+  border: 2px solid $color-noctorios-black;
+  background: $color-blue-7;
+  font-size: 18px;
+}
+.media{
+  font-size: 18px;
+  width: 105px;
+  height: 30px;
+  border: 2px solid $color-noctorios-black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $color-blue-7;
+  color: $color-off-white;
+}

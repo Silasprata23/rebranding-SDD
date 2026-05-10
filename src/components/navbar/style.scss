@@ -1,4 +1,4 @@
-
+@use "../../style/variables" as *;
 
 .navbar {
   margin: 30px 0;
@@ -7,11 +7,11 @@
   align-items: center;
   justify-content: space-between;
 
-  width: 85%;
+  width: 95%;
   height: 80px;
   border-radius: 10px;
-  border: 5px solid  #0A0A0A;
-  background: #E3E3E3;
+  border: 5px solid  $color-noctorios-black;
+  background: $color-off-white;
 
   .logo{
     width: 133px;
@@ -28,11 +28,13 @@
    gap: 25px;
    padding: 20px;
    font-size: 25px;
-   font-family: "Schibsted Grotesk", sans-serif;;
+   align-items: center;
+
  }
 
   .relogio{
     display: flex;
-    margin: 0 20px  ;
+    margin: 0 20px ;
+    font-size: 20px;
   }
 }
