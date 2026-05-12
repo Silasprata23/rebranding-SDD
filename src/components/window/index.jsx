@@ -16,6 +16,39 @@ export const Window = () => (
 
         <div className="window-content">
 
+            
+            <div className="card-wrapper">
+
+                <div className="card-slogan">
+                    <div className="slogan">
+                    <p className="left">
+                        <span>Empresas sólidas</span>
+                    </p>
+                    
+                    <p className="right"> 
+                        <span>precisam ⌘</span>
+                    </p>
+                    <p className="left">
+                         <span>de um sistema</span>
+                    </p>
+                   <p className="right"> 
+                     <span>escalável ↗</span> 
+                   </p>
+                    
+
+                    </div>
+                    
+
+                </div>
+
+                <div className="card-about">
+                    <h3>Sobre nós</h3>
+                    <p>A Suporte de Domingo cria experiências digitais únicas com design autoral e soluções modernas,
+                         focadas em aumentar conversões, reduzir custos e oferecer uma experiência acessível e memorável.</p>
+                </div>
+
+
+
             <div className="card-media">
                 <p>Nossos centros de inovação em código, automações e design → inspire-se no Instagram e colabore no Discord⟡</p>
                 <div className="button-media">
@@ -28,24 +61,42 @@ export const Window = () => (
             </div>
             <div className="card-title">
                 <h3>Serviços</h3>
-            </div>
-            <div className="card-wrapper">
+             </div>
 
-                <Card color
+
+            <Card color
                     title={"UI / UX Design para Produtos Digitais"}
                       text={"Transformamos ideias em interfaces intuitivas, responsivas e com foco na experiência do usuário projetadas para escalar globalmente."}
-                      button={"Solicitar Orçamento"}
-                />
-                <Card
-                    title={"Mídias Sociais ─ Design de Apresentações"}
+                  button={"Solicitar Orçamento"}
+            />
+            <Card
+                title={"Mídias Sociais ─ Design de Apresentações"}
                       text={"Criamos conteúdos para redes sociais, apresentações profissionais e  materiais promocionais. Sempre com clareza, estética e consistência  visual."}
-                      button={"Solicitar Orçamento"}
+                button={"Solicitar Orçamento"}
+            />
+            <CardBig color
+                title={"Branding & Identidade Visual ◐"}
+                text={"Construímos marcas com personalidade. Do logotipo à paleta de cores,  criamos identidades que conectam, comunicam e fortalecem o seu  posicionamento."}
+                button={"Solicitar Orçamento"}
                 />
-                <CardBig color
-                    title={"Branding & Identidade Visual ◐"}
-                         text={"Construímos marcas com personalidade. Do logotipo à paleta de cores,  criamos identidades que conectam, comunicam e fortalecem o seu  posicionamento."}
-                         button={"Solicitar Orçamento"}
+                
+            <Card
+                title={"Marketing Estratégico e Tráfego Pago ⟷"}
+                text={"Campanhas inteligentes e segmentadas com foco em resultados reais.  Estratégia, criatividade e performance para seu negócio crescer com  propósito."}
+                button={"Solicitar Orçamento"}
                 />
+
+            <Card
+                title={"Consultoria & Capacitação"}
+                text={"Diagnóstico de processos, automações e treinamentos práticos para sua equipe evoluir com estratégia e eficiência."}
+                button={"Solicitar Orçamento"}
+            />
+                <CardBig
+                    title={"⌘ Desenvolvimento de Software"}
+                    text={"Aplicações web e mobile sob medida, com Clean Architecture, testes automatizados e escalabilidade integrada desde o início."}
+                    button={"Solicitar Orçamento"}
+                />
+
             </div>
 
         </div>
