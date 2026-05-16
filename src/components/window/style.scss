@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   background: $color-blue-1;
-  width: 95%;
+  width: 85%;
   height: 90%;
   border-radius: 20px;
   border: 5px solid $color-noctorios-black;
@@ -26,61 +26,18 @@
 
 
   .window-content {
-    padding: 0 40px;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 50px;
 
-    .card-about{
-      border-radius: 5px;
-      border: 5px solid $color-noctorios-black;
-      background: $color-blue-3;
-      box-shadow: 15px 10px 4px 0 rgba(0, 0, 0, 0.25);
-
-
-
-
-    }
-
-
-
-
-    .card-slogan{
-      width: 700px;
-      height: 330px;
-      border-radius: 5px;
-      border: 5px solid  $color-noctorios-black;
-      background: $color-blue-2;
-      box-shadow: 20px 15px 4px 0 rgba(0, 0, 0, 0.25);
-      padding: 25px;
-      display: flex;
-      justify-content: center;
-      .slogan{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 10px;
-        .left{
-          margin-right: 50px;
-        }
-        .right{
-          margin-left: 400px;
-        }
-
-        span{
-          font-size: 50px;
-          font-weight: 800;
-        }
-      }
-    }
-
-
+  
     .card-title {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 100%;
+      width: 1520px;
       height: 100px;
       background: $color-blue-4;
       font-size: 50px;
@@ -93,11 +50,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 100%;
+      width: 1520px;
       height: 100px;
       background: $color-blue-4;
       border-radius: 5px;
       border: 5px solid $color-noctorios-black;
+     
       p{
         color: $color-noctorios-black;
         font-size: 20px;
@@ -105,7 +63,7 @@
         font-weight: 400;
         line-height: normal;
         letter-spacing: 4px;
-
+           padding: 5px;
       }
       .button-media{
         display: flex;
@@ -123,7 +81,9 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      gap: 45px;
+      gap: 30px;
+      align-content: center;
+      justify-content: center;
     }
   }
 }

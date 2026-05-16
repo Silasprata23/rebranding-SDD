@@ -3,9 +3,18 @@ import "./style.scss"
 import {Card} from "../card/index.jsx";
 import {Button} from "../button/index.jsx";
 import {CardBig} from "../card-big/index.jsx";
+import { CardSlogan } from "../card-slogan/index.jsx";
+import { CardAbout } from "../card-about/index.jsx";
+
+
+
 
 
 export const Window = () => (
+
+
+    
+
     <div className="window">
         <div className="titleBar">
             <a href="">
@@ -18,36 +27,15 @@ export const Window = () => (
 
             
             <div className="card-wrapper">
+ 
+                <CardSlogan/>
 
-                <div className="card-slogan">
-                    <div className="slogan">
-                    <p className="left">
-                        <span>Empresas sólidas</span>
-                    </p>
-                    
-                    <p className="right"> 
-                        <span>precisam ⌘</span>
-                    </p>
-                    <p className="left">
-                         <span>de um sistema</span>
-                    </p>
-                   <p className="right"> 
-                     <span>escalável ↗</span> 
-                   </p>
-                    
-
-                    </div>
-                    
-
-                </div>
-
-                <div className="card-about">
-                    <h3>Sobre nós</h3>
-                    <p>A Suporte de Domingo cria experiências digitais únicas com design autoral e soluções modernas,
-                         focadas em aumentar conversões, reduzir custos e oferecer uma experiência acessível e memorável.</p>
-                </div>
-
-
+                <CardAbout
+                    title={"Sobre nós"}
+                    text={"A Suporte de Domingo cria experiências digitais únicas com design autoral e soluções modernas, focadas em aumentar conversões, reduzir custos e oferecer uma experiência acessível e memorável. "}
+                
+                />
+                
 
             <div className="card-media">
                 <p>Nossos centros de inovação em código, automações e design → inspire-se no Instagram e colabore no Discord⟡</p>
